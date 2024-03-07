@@ -24,6 +24,10 @@ header h1 {
     cursor: pointer;
 }
 
+.sp-menu #open.hide {
+    display: none;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -35,6 +39,11 @@ header h1 {
     padding: 64px;
     opacity: 0;
     pointer-events: none;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .overlay #close {
