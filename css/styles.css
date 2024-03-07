@@ -84,6 +84,21 @@ header h1 {
     transition-delay: .3s;
 }
 
+.pc-menu {
+    display: none;
+}
+
 main {
     padding: 0 16px;
+}
+
+@media (min-width: 600px) {
+    .pc-menu {
+        display: block;
+        margin-left: auto;
+    }
+
+    .sp-menu {
+        display: none;
+    }
 }
